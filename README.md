@@ -4,16 +4,15 @@
 > 环境 **webpack ^3.x**, **babel-loader ^7.x**, **vue-loader ^13.x**
 
 ## .babelrc 配置
-
 ```js
 {
     ...
     "ignore":["node_modules"]
     ...
 }
+```
 
 ## webpack 配置
-
 ```js
 {
     test: /\.js$/,
