@@ -2,14 +2,14 @@ var { getOptions } = require('loader-utils');
 var babel = require('babel-core');
 var path = require('path');
 var jsonfile = require('jsonfile');
-
+var babelrc = getbabelrc();
 
 module.exports = function (content, map, meta) {
     this.cacheable();
     var callback = this.async();
     var optins =  getOptions(this);
     var bool = false;
-    var babelrc = getbabelrc();
+    
 
     if(optins && optins.babelrc){
         babelrc = optins.babelrc;

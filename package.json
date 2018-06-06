@@ -1,6 +1,6 @@
 {
   "name": "babel-include-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": ".babelrc ignore node_modules ,the loader include module",
   "main": "index.js",
   "scripts": {
