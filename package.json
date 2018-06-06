@@ -1,0 +1,17 @@
+{
+  "name": "babel-include-loader",
+  "version": "0.1.0",
+  "description": ".babelrc ignore node_modules ,the loader include module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "babel",
+    "include"
+  ],
+  "author": "zdzDesigenr",
+  "license": "ISC"
+}
