@@ -13,6 +13,8 @@
 
 ## webpack 配置
 ```js
+
+...
 {
     test: /\.js$/,
     loader: 'babel-loader'
